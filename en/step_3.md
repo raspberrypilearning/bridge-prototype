@@ -1,4 +1,4 @@
-## Step 2
+## Step 3
 
 ```python
 circle_radius = ## #Note to Max, this would be allow free text entryp
