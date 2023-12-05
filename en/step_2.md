@@ -1,23 +1,23 @@
-## Step title
+## Step 2
 
-Add an introductory sentence. What will learners achieve by the end of this step?
+```python
+pos_1 = (0, 0) #Note to Max, this would be the position that they had chosen in the previousl step
+col_1 = (0, 0, 0)
+```
 
---- task ---
+You can change the colour of the circle as well. The `col_1` variable stores the values of three numbers.
 
-If working **online**, open the [starter project](https://rpf.io/p/en/projectName-on){:target="_blank"} in Scratch.
- 
-If working **offline**, open the project [starter file](https://rpf.io/p/en/projectName-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
+The first number is for the amount of red, the second for the amount of green, and the third the amount of blue. The numbers can be anything between `0` and `255` **NOTE TO MAX - these are the values to be chosen for the `col_1` variable** 
 
-You should see...
- 
-![starter project](images/starter_project.png)
-
---- /task ---
-
---- task ---
-
-Step content...
-
---- /task ---
-
---- save ---
+```python
+(255, 0, 0)
+```
+```python
+(0,255, 0)
+```
+```python
+(0, 0, 255)
+```
+```python
+(255, 255, 0)
+```

@@ -1,7 +1,12 @@
-## What next?
+## Step 2
 
-If you are following the [PathwayName](https://projects.raspberrypi.org/en/raspberrypi/pathway-name) pathway, you can move on to the [ProjectName](https://projects.raspberrypi.org/en/projects/project-name) project. In this project, you will make a (add description here).
+```python
+circle_radius = ## #Note to Max, this would be allow free text entryp
 
-![ProjectName project](images/projectname-project.png)
+pos_1 = (0, 0) 
+col_1 = (255, 255, 255)
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+
+```
+
+You can choose a size for the circle you have drawn. The current size is 20 pixels, but you might want it larger or smaller. Type a number into the space providded to set the size.
