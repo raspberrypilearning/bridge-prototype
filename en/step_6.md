@@ -1,4 +1,4 @@
-## Step 3
+## Step 6
 
 ```python
 circle_radius = ##
