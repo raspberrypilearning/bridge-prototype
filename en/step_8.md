@@ -10,7 +10,7 @@ pos_2 = (#, #, #)
 col_2 = (#, #, #)
 
 pos_3 = ()
-pos_3 = ()
+col_3 = ()
 
 # HERE WOULD BE THE OTHER VARIABLE THEY HAVE SET
 
