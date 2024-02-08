@@ -10,7 +10,7 @@ pos_2 = (#, #, #)
 col_2 = (#, #, #)
 
 pos_3 = ()
-pos_3 = ()
+col_3 = ()
 
 #NOTE TO MAX - Free text for them here, to add the variables that they want.
 ```
