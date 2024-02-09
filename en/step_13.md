@@ -23,7 +23,7 @@ col_4 = (255, 255, 0)
 pos_5 = (250, 20)
 col_5 = (111,255,0)
 
-my_image = "snake.webp"
+my_image = "snake.png"
 
 
 def draw():

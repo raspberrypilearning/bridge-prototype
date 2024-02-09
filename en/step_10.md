@@ -14,7 +14,7 @@ pos_3 = ()
 
 # HERE WOULD BE THE OTHER VARIABLE THEY HAVE SET
 
-my_image = "cat.jpg"
+my_image = "cat.png"
 
 def draw():
     add_background(200, 50, 400, 400)
