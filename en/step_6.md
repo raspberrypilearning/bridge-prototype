@@ -15,5 +15,7 @@ col_3 = ()
 #NOTE TO MAX - Free text for them here, to add the variables that they want.
 ```
 
-You can add as many more variables as you like. Choose names for the variables such as `pos_4` and `col_4`, and give them coordinates and values
+Add a fourth button. Create a variable `pos_4` to store it's position, and a variable `col_4` to store a colour.
+
+Use the other variables as examples to help you.
 

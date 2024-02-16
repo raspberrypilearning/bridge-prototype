@@ -1,4 +1,4 @@
-## Step 10
+## Step 11
 
 ```python
 circle_radius = ##
@@ -19,8 +19,24 @@ my_image = "cat.png"
 def draw():
     add_background(200, 50, 400, 400)
     if mouse_down():
+        fill()
         circle(mouse_x, mouse_y, 0) ##They can choose a value for the size of the circle.
     
 ```
 
-The function `draw()` now uses an `if` statement, to detect if the mouse button is pressed or not. If it is, then it will draw a circle at the `mouse_x` and `mouse_y` position. Yoy can choose a value for the size of the circle it will draw.
+The colour of the drawn circle can changed by setting its `fill`. 
+
+Try these options for fill, click **Run code** and paint over your image. Can you guess what colours they will produce?
+
+```python
+fill(255, 255, 255)
+```
+```python
+fill(0, 0, 0)
+```
+```python
+fill(255, 0, 255)
+```
+```python
+fill(current_color)
+```

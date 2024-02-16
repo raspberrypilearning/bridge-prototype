@@ -9,4 +9,6 @@ col_1 = (255, 255, 255)
 
 ```
 
-You can choose a size for the circle you have drawn. The current size is 20 pixels, but you might want it larger or smaller. Type a number into the space providded to set the size.
+Now you can choose a size for the button you have drawn. The current size is `20`. You could make it larger or smaller though. 
+
+Type a number into the space provided to set the button size, then click **Run code**

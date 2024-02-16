@@ -5,11 +5,13 @@ pos_1 = (0, 0)
 col_1 = (0, 0, 0)
 ```
 
-Run the following code, and you should see a small black circle, in the top left corner of the output pain.
+You're going to build a painting app!
 
-You can change the position of the circle by changing the x (horizontal) and y (verticle) coordinates stored in the `pos_1` variable
+Start by making a palette full of colourful buttons, just like the paint artists use.
 
-Choose a position to place you circle: **NOTE TO MAX - these are the choices that the user can place**
+We need to tell the computer where to put the first button on the screen. Think of the screen like a big grid, with numbers going across (left to right) and numbers going down (top to bottom). These numbers are called `x` and `y` coordinates.
+
+The `pos_1` variable stores these `x` and `y` coordinates. Click on one of the choices and then click "Run code" to see it appear. Change the numbers until you are happy.
 
 ```python
 (20,20)

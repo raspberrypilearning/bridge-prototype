@@ -1,4 +1,4 @@
-## Step 8
+## Step 9
 
 ```python
 circle_radius = ##
@@ -14,12 +14,28 @@ col_3 = ()
 
 # HERE WOULD BE THE OTHER VARIABLE THEY HAVE SET
 
-my_image = ""
+my_image = "cat.png"
 
-
+def draw():
+    
 ```
 
-Look at the images below, and choose one that will be used for the variable `my_image`, to set the background.
+`def setup():` is a function. This will contain the code that will be used to draw the background.
 
-**NOTE TO MAX - possibly give images for them to choose with the filename below, or if there is not enough space, just give them the filenames. It might be useful to have a mixture of jpeg, jpg, png, svg and webp images, so they can get used to file exxtensions**
+Inside the `setup()` function, add code to position the image you chose and set its size.
 
+Choose the best one for your screen.
+
+**NOTE TO MAX - These would be a variety of sizes and positions that could be suitable for different display resolutions.**
+```python
+add_background(100, 100, 250, 300)
+```
+```python
+add_background(100, 100, 250, 300)
+```
+```python
+add_background(100, 100, 250, 300)
+```
+```python
+add_background(100, 100, 250, 300)
+```

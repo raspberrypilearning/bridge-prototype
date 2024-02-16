@@ -1,4 +1,4 @@
-## Step 7
+## Step 8
 
 ```python
 circle_radius = ##
@@ -12,10 +12,16 @@ col_2 = (#, #, #)
 pos_3 = ()
 col_3 = ()
 
-#NOTE TO MAX - Free text for them here, to add the variables that they want.
+# HERE WOULD BE THE OTHER VARIABLE THEY HAVE SET
+
+my_image = ""
+
+
 ```
+Now choose an image to paint. 
 
-You can add as many more variables as you like. Choose names for the variables such as `pos_4` and `col_4`, and give them coordinates and values. Try to make the circles line up with each other.
+The variable `my_image` will store the filename of the image you choose. 
 
+Select a file name from the options below. You won't see the image yet, you will display it in the next step.
 
 

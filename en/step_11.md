@@ -1,4 +1,4 @@
-## Step 11
+## Step 12
 
 ```python
 circle_radius = ##
@@ -18,23 +18,28 @@ my_image = "cat.png"
 
 def draw():
     add_background(200, 50, 400, 400)
-    if mouse_down():
-        fill()
+    if mouse_down() _____ _______:
+        fillcurrent_color)
         circle(mouse_x, mouse_y, 0) ##They can choose a value for the size of the circle.
     
 ```
 
-The colour of the drawn circle can changed by setting its `fill`. Try these options for fill, to see what they do.
+At the moment you can color over the top of your paint choosing circles. You can stop this using the `not_in_circle()` function.
+If the mouse is down **and** the pointer is not in a circle, then the painting can begin. Complete your `if` statement to make your painting app.
 
 ```python
-fill(255, 255, 255)
+and
 ```
+
 ```python
-fill(0, 0, 0)
+or
 ```
+
 ```python
-fill(255, 0, 255)
+and not
 ```
+
 ```python
-fillcurrent_color)
+not_in_circle()
 ```
+
