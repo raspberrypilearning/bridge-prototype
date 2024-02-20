@@ -18,10 +18,10 @@ my_image = ""
 
 
 ```
-Now choose an image to paint. 
+You have been provided with an image to paint over, but you need to decide its size and position.
 
-The variable `my_image` will store the filename of the image you choose. 
+A function called `setup()` is used to set the background image. The first two numbers set the position of the image, and the second two numbers set the size of the image.
 
-Select a file name from the options below. You won't see the image yet, you will display it in the next step.
+Experiment with the position and size of the image, so that it looks correct on your screen.
 
 
