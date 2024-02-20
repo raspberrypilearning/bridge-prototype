@@ -19,14 +19,12 @@ my_image = "cat.png"
 def draw():
     
 ```
+Now you can choose a different image to paint over.
 
-`def setup():` is a function. This will contain the code that will be used to draw the background.
+The variable `my_image` stores the filename of the image you choose.
 
-Inside the `setup()` function, add code to position the image you chose and set its size.
+Select a file name from the options below, and click **Run code**. You can look at all the images, until you find the one you like best.
 
-Choose the best one for your screen.
-
-**NOTE TO MAX - These would be a variety of sizes and positions that could be suitable for different display resolutions.**
 ```python
 add_background(100, 100, 250, 300)
 ```
