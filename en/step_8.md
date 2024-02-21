@@ -1,22 +1,24 @@
 ## Step 9
 
 ```python
-circle_radius = ##
+circle_radius = 40
 
-pos_1 = (0, 0) 
-col_1 = (255, 255, 0)
+pos_1 = (400, 150)
+col_1 = (0, 255, 0)
 
-pos_2 = (#, #, #)
-col_2 = (#, #, #)
+pos_2 = (500, 150)
+col_2 = (255, 0, 0)
 
-pos_3 = ()
-col_3 = ()
+pos_3 = (300, 150)
+col_3 = (0, 0, 255)
 
-# HERE WOULD BE THE OTHER VARIABLE THEY HAVE SET
+pos_4 = (400, 50)
+col_4 = (255, 0, 255)
 
-my_image = "cat.png"
+my_image = "{my_img}"
 
-def draw():
+def setup():
+    add_background(100, 170, 500, 500)
     
 ```
 Now you can choose a different image to paint over.
