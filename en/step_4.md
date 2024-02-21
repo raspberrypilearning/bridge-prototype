@@ -12,6 +12,6 @@ col_2 = (#, #, #)
 
 Next you can add a second button. Its position will be stored in `pos_2` and its colour in `pos_2`.
 
-Type numbers for the `x` and `y` coordinates on line 6. 
+Type numbers for the `x` and `y` coordinates on line 6. They must be between `0` and `800`
 
 Choose values between `0` and `255` for the red, green and blue colour on line 7.
