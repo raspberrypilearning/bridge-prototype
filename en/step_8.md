@@ -1,6 +1,5 @@
 ## Step 9
 
-```python
 circle_radius = 40
 
 pos_1 = (400, 150)
@@ -19,7 +18,6 @@ my_image = "{my_img}"
 
 def setup():
     add_background(100, 170, 500, 500)
-    
 ```
 Now you can choose a different image to paint over.
 
@@ -27,15 +25,3 @@ The variable `my_image` stores the filename of the image you choose.
 
 Select a file name from the options below, and click **Run code**. You can look at all the images, until you find the one you like best.
 
-```python
-add_background(100, 100, 250, 300)
-```
-```python
-add_background(100, 100, 250, 300)
-```
-```python
-add_background(100, 100, 250, 300)
-```
-```python
-add_background(100, 100, 250, 300)
-```
