@@ -24,7 +24,7 @@ def draw():
     
 ```
 
-At the moment you can color over the top of your paint choosing circles. You can stop this using the `not_in_circle()` function.
+At the moment you can color over the top of your buttons. You can stop this using the `not_in_circle()` function.
 If the mouse is down **and** the pointer is not in a circle, then the painting can begin. Complete your `if` statement to make your painting app.
 
 ```python
