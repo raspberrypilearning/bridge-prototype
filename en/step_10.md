@@ -1,42 +1,31 @@
 ## Step 11
 
 ```python
-circle_radius = ##
+circle_radius = 40
 
-pos_1 = (0, 0) 
-col_1 = (255, 255, 0)
+pos_1 = (400, 150)
+col_1 = (0, 255, 0)
 
-pos_2 = (#, #, #)
-col_2 = (#, #, #)
+pos_2 = (500, 150)
+col_2 = (255, 0, 0)
 
-pos_3 = ()
-pos_3 = ()
+pos_3 = (300, 150)
+col_3 = (0, 0, 255)
 
-# HERE WOULD BE THE OTHER VARIABLE THEY HAVE SET
+pos_4 = (400, 50)
+col_4 = (255, 0, 255)
 
-my_image = "cat.png"
+my_image = "lizard.webp"
+
+def setup():
+    add_background(100, 170, 500, 500)
 
 def draw():
-    add_background(200, 50, 400, 400)
-    if mouse_down():
-        fill()
-        circle(mouse_x, mouse_y, 0) ##They can choose a value for the size of the circle.
-    
+    if is_drawing() :
+        fill({fill_colour})
+        circle(mouse_x, mouse_y, 20)
 ```
 
-The colour of the drawn circle can changed by setting its `fill`. 
+The colour you are drawing can changed by setting its `fill`. 
 
-Try these options for fill, click **Run code** and paint over your image. Can you guess what colours they will produce?
-
-```python
-fill(255, 255, 255)
-```
-```python
-fill(0, 0, 0)
-```
-```python
-fill(255, 0, 255)
-```
-```python
-fill(current_color)
-```
+This uses the same RGB system as before, so you could add in three numbers between `0` and `255`. However the colour of the last button you clicked on is stored in a variable called `current_color`. Try adding `current_color` to the code, then *click **Run code**. You should now be able to select your colours to paint.
